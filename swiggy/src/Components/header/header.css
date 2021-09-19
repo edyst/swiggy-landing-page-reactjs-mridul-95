@@ -1,0 +1,80 @@
+.food_img {
+  height: 550px;
+  width: 45%;
+}
+.header {
+  height: 550px;
+  width: 55%;
+  padding: 70px 30px;
+  font-family: ProximaNova, Arial, Helvetica Neue, sans-serif;
+  padding-left: 150px;
+}
+header img {
+  height: 80px;
+  width: 200px;
+}
+.header1 {
+  display: flex;
+  justify-content: space-between;
+}
+.tittle {
+  color: #fc8019;
+  height: 100px;
+  width: 100px;
+  font-weight: 1000;
+}
+.btn1 {
+  background-color: white;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn1:hover {
+  color: #fc8019;
+}
+.btn2 {
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.input1 {
+  height: 100%;
+  width: 80%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  line-height: 28px !important;
+  font-size: 18px !important;
+  border-right: none;
+}
+.header span {
+  color: #535665;
+  padding: 17px 0px;
+  border-left: none;
+  font-size: 14px;
+  float: right;
+  padding-right: 10px;
+  font-family: ProximaNova, Arial;
+}
+.header span:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn3 {
+  background-color: #fc8019;
+  color: white;
+  outline: none;
+  border: none;
+  height: 62px;
+}
+.inputLocation {
+  display: inline-block;
+  height: 58px;
+  width: 70%;
+  border: 1px solid #fc8019;
+  font-weight: 500;
+  caret-color: #fc8019;
+}
