@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import {BiCurrentLocation } from 'react-icons/bi'
 export default function Header() {
     let i=1;
        setInterval(()=>{
@@ -30,6 +31,7 @@ export default function Header() {
               <p style={{color:'grey' , fontSize:'25px'}} className="mb-5">Order food from favorite restauant near you</p>
               <div className="inputLocation">
               <input placeholder="Enter your delivery Location" className="input1" maxLength="30"/>
+              <BiCurrentLocation style={{marginBottom:"5px"}}/>
               <span>Locate me</span>
               </div> 
               <button className="btn3 px-4 py-2"><b>FIND FOOD</b></button>
