@@ -1,6 +1,6 @@
 .Footer2 {
   background-color: black;
-  height: 300px;
+  min-height: 300px;
   line-height: 40px;
 }
 .Footer2-div {
@@ -8,9 +8,11 @@
   justify-content: space-around;
   padding-right: 50px;
   flex-wrap: wrap;
+  padding-left: 50px;
 }
 .Footer2 ul {
   list-style: none;
+  min-width: 200px;
 }
 .Footer2 a {
   text-decoration: none;

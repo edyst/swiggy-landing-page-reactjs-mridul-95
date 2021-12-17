@@ -1,7 +1,8 @@
 .Thirdcomp {
-  height: 600px;
+  min-height: 600px;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .images img {
   height: 500px;
@@ -11,13 +12,20 @@
   position: relative;
   top: 100px;
 }
+@media (max-width: 600px) {
+  .images2 {
+    top: 0px;
+  }
+}
 .Info img {
   height: 50px;
   width: 200px;
   margin: 5px;
 }
 .Info {
-  margin: 200px 50px;
+  margin: 100px 50px;
+  min-width: 200px;
+  padding: 50px;
 }
 .pt {
   max-width: 300px;

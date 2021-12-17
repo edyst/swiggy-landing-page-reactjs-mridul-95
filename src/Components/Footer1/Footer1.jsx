@@ -4,7 +4,7 @@ export default function Footer1() {
     return (
         <div className="Footer1">
         <div className="Footer1-flex" >
-            <div className="Footer-div">
+            <div className="Footer1-div">
                 <h6>COMPANY</h6>
                 <ul>
                     <li><a href="#">About us</a></li>
@@ -17,7 +17,7 @@ export default function Footer1() {
                     <li><a href="#">Swiggy Instamart</a></li>
                 </ul>
             </div>
-            <div className="Footer-div">
+            <div className="Footer1-div">
                 <h6>CONTACT</h6>
                 <ul>
                     <li><a href="#">Help & Suppot</a></li>
@@ -25,7 +25,7 @@ export default function Footer1() {
                     <li><a href="#">Ride with us</a></li>
                 </ul>
             </div>
-            <div className="Footer-div">
+            <div className="Footer1-div">
                 <h6>LEGAL</h6>
                 <ul>
                     <li><a href="#">Terms & Conditions</a></li>

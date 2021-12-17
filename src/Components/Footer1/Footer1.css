@@ -1,13 +1,16 @@
 .Footer1 {
-  height: 500px;
+  min-height: 500px;
   background-color: black;
-  padding-top: 100px;
+  padding-top: 50px;
   line-height: 35px;
   padding-bottom: 0px;
 }
 .Footer1-flex {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 30px;
 }
 .Footer-div4 img {
   display: block;
@@ -25,14 +28,17 @@
   font-size: 15px;
 }
 .Footer1 h6 {
-  text-align: center;
   color: grey;
   margin-bottom: 20px;
   font-weight: 500;
+  margin-left: 50px;
+}
+.Footer1-div {
+  min-width: 300px;
 }
 .Footer1 hr {
   color: white;
   background-color: white;
   margin: 0px 120px;
-  height: 20px;
+  height: 1px;
 }

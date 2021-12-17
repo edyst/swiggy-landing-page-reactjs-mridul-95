@@ -1,12 +1,13 @@
 .Secondcomp {
   display: flex;
-  height: 300px;
+  min-height: 300px;
   justify-content: space-evenly;
   background-color: rgb(43, 30, 22);
   color: white;
   text-align: center;
-  padding-bottom: 350px;
+  padding-bottom: 50px;
   line-height: 24px;
+  flex-wrap: wrap;
 }
 .Secondcomp img {
   height: 200px;
